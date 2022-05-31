@@ -10,4 +10,4 @@
 <@wp.currentWidget param="config" configParam="contentIdAndTemplateId" var="configContentIdAndTemplateId" />
 <@wp.currentWidget param="config" configParam="saveQuery" var="configSaveQuery" />
 <@wp.currentWidget param="config" configParam="fieldSearchBy" var="configFieldSearchBy" />
-<my-list-widget contentName="${configSelectedContentName}" contentIdsAndTemplateIds="${configContentIdAndTemplateId}" saveQueryDetails="${configSaveQuery}" fieldSearchBy="${configFieldSearchBy}"/>
+<my-list-widget contentName="${configSelectedContentName}" contentIdsAndTemplateIds="${configContentIdAndTemplateId}" fieldSearchBy="${configFieldSearchBy}" saveQueryDetails="${configSaveQuery}" />
