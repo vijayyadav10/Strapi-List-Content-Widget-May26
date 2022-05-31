@@ -8,4 +8,5 @@
 
 <@wp.currentWidget param="config" configParam="selectedContentName" var="configSelectedContentName" />
 <@wp.currentWidget param="config" configParam="contentIdAndTemplateId" var="configContentIdAndTemplateId" />
-<my-list-widget contentName="${configSelectedContentName}" contentIdsAndTemplateIds="${configContentIdAndTemplateId}" />
+<@wp.currentWidget param="config" configParam="saveQuery" var="configSaveQuery" />
+<my-list-widget contentName="${configSelectedContentName}" contentIdsAndTemplateIds="${configContentIdAndTemplateId}" saveQueryDetails="${configSaveQuery}" />
